@@ -1,0 +1,132 @@
+.biography {
+
+    .bio-image,
+    .bio-copy {
+        flex: 1
+    }
+    .bio-image {
+        text-align: right;
+
+        img {
+            width: 85%;
+        }
+    }
+}
+.cta {
+    padding: 15px 0;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 35%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.primary-cta {
+    color: #fff;
+    background: #61bd00;
+    font-size: 1.2rem;
+}
+.intro-image {
+    width: 85px;
+    margin-bottom: 5px;
+}
+.skill-section {
+    margin-bottom: 30px;
+}
+.black-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 30px 0 30px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+}
+.white-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 30px 0 30px;
+    border-color: #fff transparent transparent transparent;
+    display: inline-block;
+}
+.grey-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 30px 0 30px;
+    border-color: #f0f0f0 transparent transparent transparent;
+    display: inline-block;
+}
+.skills {
+
+    .terciary-headline {
+        font-weight: normal;
+        opacity: .8;
+        margin-bottom: 20px;
+        border-bottom: dotted 2px #90c540;
+        padding-bottom: 15px;
+    }
+}
+.skill {
+    width: 48%;
+
+    img.main-img {
+        width: 100%;
+    }
+    img.stars {
+        width: 110px;
+    }
+    .sub-headline {
+        font-size: 1.35rem;
+    }
+    .cta {
+        width: 50%;
+        // background: #aaa;
+    }
+}
+.footer {
+    padding: 10px 0;
+    background: black;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    width: 25px;
+    margin: 0 5px;
+}
+
+@media (max-width: 991px) {
+    .cta {
+        width: 100%;
+    }
+    .biography {
+
+        .bio-image, .bio-copy {
+            flex: 0 0 100%;
+        }
+        .bio-image {
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .intro-item {
+        padding: 0;
+    }
+    .skill {
+        width: 100%;
+        margin: 0 0 25px 0;
+
+        .cta {
+            width: 100%;
+        }
+    }
+}

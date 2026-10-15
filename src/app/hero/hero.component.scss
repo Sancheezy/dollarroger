@@ -1,0 +1,84 @@
+.hero {
+    background-image: url(https://dollarroger.com/assets/images/large-bg.jpg);
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+
+    .hero-headline {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .title-description {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+        font-weight: normal;
+    }
+    .subtitle-description {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        font-weight: normal;
+    }
+    .cta {
+        padding: 15px 0;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: bold;
+        width: 35%;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .primary-cta {
+        color: #fff;
+        background: #61bd00;
+        font-size: 1.2rem;
+    }
+    .portrait {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .hero-benefits {
+        margin-bottom: 30px;
+
+        .benefit {
+            flex: 1;
+
+            p {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    .ratings {
+        margin-top: 10px;
+        margin-bottom: 0;
+
+        // .stars {
+        //     width: 125px;
+        // }
+    }
+   
+}
+.featured-on {
+    
+    img {
+        width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    .hero {
+        // padding-top: 50px;
+        height: 485px;
+
+        .cta {
+            width: 100%;
+            display: block;
+        }
+    }
+}
